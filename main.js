@@ -4,6 +4,7 @@ import "./src/styles/elements/base.css";
 import "./src/styles/tools/NessBorder/style.css";
 import BoardGame from "./src/objects/BoardGame";
 import PlayerName from "./src/components/PlayerName";
+import ScoreBoard from "./src/components/ScoreBoard";
 
 
 
@@ -13,8 +14,7 @@ const $htmlPlayerName = PlayerName('PlayerOne');
 
 $root.insertAdjacentHTML('beforeend', 
     `
-    ${PlayerName('PlayerOne')}
-    ${PlayerName('PlayerTwo')}
+    ${ScoreBoard()}
     ${BoardGame(6)}
     `);
 

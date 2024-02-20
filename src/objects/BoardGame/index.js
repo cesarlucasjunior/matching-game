@@ -10,5 +10,5 @@ function BoardGame(amountOfCards) {
             ${$htmlBoardGame}
         </section>`;
 }
-
+//Link para o curso - https://www.youtube.com/playlist?list=PLirko8T4cEmzWZVn_ZKQbfDOuCnSZJ4va
 export default BoardGame;
